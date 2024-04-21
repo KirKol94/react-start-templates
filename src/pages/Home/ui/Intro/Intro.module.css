@@ -1,0 +1,16 @@
+.intro {
+  padding: 200px 0;
+  border-bottom: 1px solid var(--color-main);
+}
+
+.container {
+  text-align: center;
+  gap: 4rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}

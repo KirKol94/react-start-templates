@@ -1,9 +1,12 @@
-import { Container, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import { Intro } from './Intro/Intro'
+import { Branches } from './Branches/Branches'
 
 export const Home = () => {
   return (
-    <Container>
-      <Typography variant="h1">Home</Typography>
-    </Container>
+    <Box>
+      <Intro />
+      <Branches />
+    </Box>
   )
 }

@@ -1,0 +1,50 @@
+.branches {
+}
+
+.container {
+  padding: 200px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+}
+
+.subtitle {
+  padding: 2rem 0;
+}
+
+.listBox {
+  margin-top: 2rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+
+  svg {
+    color: var(--color-main);
+  }
+}
+
+.name {
+  text-transform: capitalize;
+  color: var(--color-main);
+}
