@@ -16,6 +16,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '*',
+    element: <>Page is not a found</>,
+  },
 ])
 
 export const Router = () => <RouterProvider router={router} />
