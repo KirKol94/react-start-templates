@@ -1,9 +1,9 @@
 import { Container, Typography } from '@mui/material'
 
-export const About = () => {
+export const NotFound = () => {
   return (
     <Container>
-      <Typography variant="h1">About</Typography>
+      <Typography variant="h1">404 Not Found Page</Typography>
     </Container>
   )
 }
