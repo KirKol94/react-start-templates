@@ -10,8 +10,16 @@ export const Plans = () => {
         </Typography>
 
         <Typography variant="h5" component="p" align="center" marginTop={2}>
-          В планах добавить ещё один раздел в котором помимо всего того, что настроено в шаблонах выше ещё будут
-          добавлены разные стейт-менеджеры
+          Добавить ещё один раздел в котором помимо всего того, что настроено в шаблонах выше ещё будут добавлены разные
+          стейт-менеджеры
+        </Typography>
+
+        <Typography variant="h5" component="p" align="center" marginTop={2}>
+          Добавить правила / конфиги линтеров для каждого шаблона
+        </Typography>
+
+        <Typography variant="h5" component="p" align="center" marginTop={2}>
+          Добавить stylelint
         </Typography>
       </Container>
     </Box>
