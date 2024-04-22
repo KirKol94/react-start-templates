@@ -1,4 +1,4 @@
-# Чистый стартовый проект на React + TypeScript с использованием Vite
+# React + TS + Tailwind
 
 ### Содержание
 
