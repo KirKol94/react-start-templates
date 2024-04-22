@@ -1,8 +1,9 @@
 .branches {
+  padding: 200px 0;
+  background-color: #181a1f;
 }
 
 .container {
-  padding: 200px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -22,29 +23,28 @@
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .listItem {
+  background-color: #1f232b;
+  box-shadow: 0 0 4px white;
+  border-radius: 8px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .link {
-  width: 100%;
+  width: fit-content;
   height: 100%;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-
-  svg {
-    color: var(--color-main);
-  }
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
 }
 
-.name {
-  text-transform: capitalize;
-  color: var(--color-main);
+.text {
+  text-align: center;
 }

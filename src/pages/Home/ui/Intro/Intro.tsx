@@ -11,7 +11,7 @@ export const Intro = () => {
         </Typography>
 
         <Typography variant="h5" component="p">
-          Start a new React project and don't waste time on project setup
+          Начни работу с React с нужным стартовым шаблоном и не трать время на настройку проекта
         </Typography>
 
         <Box className={c.buttons}>
