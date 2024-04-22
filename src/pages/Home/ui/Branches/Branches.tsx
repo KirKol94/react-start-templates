@@ -1,5 +1,5 @@
 import { CardTemplate } from '@/widgets/CardTemplate'
-import { Box, Container, List, Typography } from '@mui/material'
+import { Box, Container, List, ListItem, Typography } from '@mui/material'
 import c from './Branches.module.css'
 
 export const Branches = () => {
@@ -11,8 +11,20 @@ export const Branches = () => {
         </Typography>
 
         <Typography variant="h5" component="p" marginTop={2}>
-          В каждом шаблоне по умолчанию настроены алиасы путей и базовый роутинг
+          Каждый шаблон по умолчанию имеет настройки:
         </Typography>
+
+        <List>
+          <ListItem>
+            <Typography component="p">Роутинг</Typography>
+          </ListItem>
+          <ListItem>
+            <Typography component="p">Алиас абсолютных путей через '@/'</Typography>
+          </ListItem>
+          <ListItem>
+            <Typography component="p">Скрипт для автогенерации FSD слоёв</Typography>
+          </ListItem>
+        </List>
 
         <Typography variant="h5" component="p" marginTop={2}>
           Чтобы воспользоваться шаблоном скачай архиив и установи зависимости
