@@ -1,3 +1,8 @@
 export const Home = () => {
-  return <h1>Home</h1>
+  return (
+    <div className="container mx-auto">
+      <h1 className="text-9xl">Home</h1>
+      <p>Home page</p>
+    </div>
+  )
 }
