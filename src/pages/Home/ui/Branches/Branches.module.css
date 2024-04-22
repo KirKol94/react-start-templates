@@ -22,29 +22,6 @@
 
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 1rem;
-}
-
-.listItem {
-  background-color: #1f232b;
-  box-shadow: 0 0 4px white;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.link {
-  width: fit-content;
-  height: 100%;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 0;
-}
-
-.text {
-  text-align: center;
 }

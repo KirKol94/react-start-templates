@@ -1,0 +1,35 @@
+.listItem {
+  background-color: #1f232b;
+  box-shadow: 0 0 4px white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.description {
+  text-align: center;
+}
+
+.links {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.link {
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px white;
+}
