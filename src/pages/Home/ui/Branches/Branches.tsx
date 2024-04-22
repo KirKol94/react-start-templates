@@ -15,7 +15,7 @@ export const Branches = () => {
         </Typography>
 
         <Typography variant="h5" component="p" marginTop={2}>
-          Чтобы воспользоваться шаблоном перейди по ссылке и скачай .zip архив
+          Чтобы воспользоваться шаблоном скачай архиив и установи зависимости
         </Typography>
 
         <Box className={c.listBox}>
