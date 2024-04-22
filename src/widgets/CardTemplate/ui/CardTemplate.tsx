@@ -27,7 +27,7 @@ export const CardTemplate = (props: Props) => {
           href={`https://github.com/KirKol94/react-start-templates/archive/refs/heads/${branchName}.zip`}
         >
           <Download />
-          <Typography variant="h5" component="span" className={c.description}>
+          <Typography variant="h6" component="span" className={c.description}>
             Скачать
           </Typography>
         </Link>
@@ -38,7 +38,7 @@ export const CardTemplate = (props: Props) => {
           target="_blank"
         >
           <GitHub />
-          <Typography variant="h5" component="span" className={c.description}>
+          <Typography variant="h6" component="span" className={c.description}>
             GitHub
           </Typography>
         </Link>
