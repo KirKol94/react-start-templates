@@ -24,6 +24,9 @@ export const Branches = () => {
           <ListItem>
             <Typography component="p">Скрипт для автогенерации FSD слоёв</Typography>
           </ListItem>
+          <ListItem>
+            <Typography component="p">Скрипт для подсчёта строк в папке src</Typography>
+          </ListItem>
         </List>
 
         <Typography variant="h5" component="p" marginTop={2}>
