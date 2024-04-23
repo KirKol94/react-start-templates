@@ -3,7 +3,7 @@ import c from './Plans.module.css'
 
 export const Plans = () => {
   return (
-    <Box className={c.container}>
+    <Box className={c.plans}>
       <Container>
         <Typography variant="h3" component="h2" align="center">
           Планы
